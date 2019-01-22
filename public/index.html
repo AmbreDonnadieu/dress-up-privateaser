@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
+	<link rel="stylesheet" href="index.css" />
     <title>CSS/HTML Workshop with Privateaser</title>
   </head>
+  
+  
   <body>
+  <div class= "all">
+	<h1 class="titre"> Welcome on Privateaser !</h1>
+	
+	<h2 class="titre"> BAR </h2>
     <div id="bar">
       <input class="js-name" type="text" placeholder="Bar name"/>
       <input class="js-price-by-hour" type="number" placeholder="Price by hour"/>
       <input class="js-price-by-person" type="number" placeholder="Price by person"/>
     </div>
+	
+	<h2 class="titre"> BOOKER </h2>
     <div id="booker">
       <input class="js-name" type="text" placeholder="Booker name"/>
       <input class="js-time" type="number" placeholder="Time in h"/>
       <input class="js-persons" type="number" placeholder="Persons"/>
       <input class="js-option" type="checkbox" placeholder="Deductible option"/>
     </div>
+	<br>
+	
     <button id="compute">Compute</button>
+	<br>
     <div id="actors"></div>
     <script src="privateaser.js"></script>
     <script src="index.js"></script>
+	</div>
+	<br>
   </body>
 </html>
